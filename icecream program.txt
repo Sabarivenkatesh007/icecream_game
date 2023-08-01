@@ -1,0 +1,24 @@
+There are icecream store,user went to the icecream.the available icecream flavours are vanilla,chocolate,pistha.if user enter odd number,vanilla icecream are come , if user enter even number chocolate icecream are come ,else pistha icecream comes from the machine.
+
+
+import java.util.*;
+
+public class Icecream{
+
+public static void main(){
+int a;
+Scanner sc=new Scanner(System.in);
+if(a%2==0)
+{
+System.out.println("Vanilla icecream");
+}
+else if(a%2!=0)
+{
+System.out.println("chocolate icecream");
+else if(a==0){
+System.out.println("pistha icecream");
+}
+else{
+System.out.println("issues in machine");
+}
+} 
